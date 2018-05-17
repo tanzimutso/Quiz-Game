@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFDE7"
     android:orientation="vertical"
-    tools:context=".MainActivity1">
+    tools:context=".InternationalActivity">
 
     <TextView
         android:id="@+id/score"
@@ -91,6 +91,7 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="41dp"
         tools:layout_editor_absoluteY="275dp" />
+
 
 
 </LinearLayout>
