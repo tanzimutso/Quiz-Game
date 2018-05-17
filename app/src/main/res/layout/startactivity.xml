@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:id="@+id/StartActivity"
-    android:gravity="center"
-    android:background="#E3F2FD"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".StartActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="239dp"
+        android:layout_height="237dp"
+        app:srcCompat="@drawable/icon" />
 
     <Button
         android:id="@+id/button"
         style="@android:style/Widget.Button"
         android:layout_width="265dp"
         android:layout_height="85dp"
+        android:layout_marginTop="70dp"
         android:background="#FFECB3"
         android:drawableLeft="@mipmap/gameplay"
         android:text="Start Game"
@@ -26,4 +35,5 @@
 
         tools:layout_editor_absoluteX="60dp"
         tools:layout_editor_absoluteY="183dp" />
+
 </LinearLayout>
