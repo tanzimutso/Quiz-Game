@@ -48,64 +48,64 @@ public class SportsActivity extends AppCompatActivity {
         answer1.setOnClickListener(new View.OnClickListener() {
                                        @Override
                                        public void onClick(View v) {
-                                           if (answer1.getText() == myAnswer) {
-                                               myScore++;
-                                               score.setText("Your Score: "+ myScore);
-                                               updateQuestion(r.nextInt(myQuestionsLength));
-                                           }
-                                           else{
-                                               gameOver();
-                                           }
-                                       }
-                                   }
+                   if (answer1.getText() == myAnswer) {
+                       myScore++;
+                       score.setText("Your Score: "+ myScore);
+                       updateQuestion(r.nextInt(myQuestionsLength));
+                   }
+                   else{
+                       gameOver();
+                   }
+               }
+           }
 
         );
 
         answer2.setOnClickListener(new View.OnClickListener() {
                                        @Override
                                        public void onClick(View v) {
-                                           if (answer2.getText() == myAnswer) {
-                                               myScore++;
-                                               score.setText("Your Score: "+ myScore);
-                                               updateQuestion(r.nextInt(myQuestionsLength));
-                                           }
-                                           else{
-                                               gameOver();
-                                           }
-                                       }
-                                   }
+                   if (answer2.getText() == myAnswer) {
+                       myScore++;
+                       score.setText("Your Score: "+ myScore);
+                       updateQuestion(r.nextInt(myQuestionsLength));
+                   }
+                   else{
+                       gameOver();
+                   }
+               }
+           }
 
         );
 
         answer3.setOnClickListener(new View.OnClickListener() {
                                        @Override
                                        public void onClick(View v) {
-                                           if (answer3.getText() == myAnswer) {
-                                               myScore++;
-                                               score.setText("Your Score: "+ myScore);
-                                               updateQuestion(r.nextInt(myQuestionsLength));
-                                           }
-                                           else{
-                                               gameOver();
-                                           }
-                                       }
-                                   }
+                   if (answer3.getText() == myAnswer) {
+                       myScore++;
+                       score.setText("Your Score: "+ myScore);
+                       updateQuestion(r.nextInt(myQuestionsLength));
+                   }
+                   else{
+                       gameOver();
+                   }
+               }
+           }
 
         );
 
         answer4.setOnClickListener(new View.OnClickListener() {
                                        @Override
                                        public void onClick(View v) {
-                                           if (answer4.getText() == myAnswer) {
-                                               myScore++;
-                                               score.setText("Your Score: "+ myScore);
-                                               updateQuestion(r.nextInt(myQuestionsLength));
-                                           }
-                                           else{
-                                               gameOver();
-                                           }
-                                       }
-                                   }
+                   if (answer4.getText() == myAnswer) {
+                       myScore++;
+                       score.setText("Your Score: "+ myScore);
+                       updateQuestion(r.nextInt(myQuestionsLength));
+                   }
+                   else{
+                       gameOver();
+                   }
+               }
+           }
 
         );
 
@@ -138,7 +138,7 @@ public class SportsActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                finish();
+                                startActivity(new Intent(getApplicationContext(),StartActivity.class));
                             }
                         }
                 );

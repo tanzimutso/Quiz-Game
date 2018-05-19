@@ -12,7 +12,11 @@ public class Questions {
             "What is the national tree of Bangladesh?",
             "Which of these is used to make pudding?",
             "What is the date of the national independence day of Bangladesh?",
-            "What is the name of the rocket that brings Bangabandhu-1 satellite in space?"
+            "What is the name of the rocket that brings Bangabandhu-1 satellite in space?",
+            "Bangladesh was divided into __ sectors during the independence war of 1971?",
+            "Which one is the biggest river of Bangladesh?",
+            "What is the name of the national fish of Bangladesh?",
+            "What is the name of the national bird of Bangladesh?"
     };
 
     public String internationalQuestions[] = {
@@ -23,14 +27,30 @@ public class Questions {
             "Which country is the largest country in South America?",
             "Which country is the smallest country of the world?",
             "The number of ocean in the world is?",
-            "Hitlar was the leader of?"
+            "Hitlar was the leader of?",
+            "I-Phone is the product of which company?",
+            "Statue of Liberty was given to USA by which country?",
+            "How many continents are there in the world?",
+            "Which of these country is located in both asia and europe continent?",
+            "What is name of the largest country of the world?",
+            "What is the national game of USA?",
+            "What is the name of the highest mountain of the world?"
     };
     public String sportsQuestions[] = {
             "Which club have won the UEFA CHAMPIONS LEAGUE 2016?",
             "Which batsman has the record of most centuries in cricket?",
             "Pele played for?",
             "Who is the top scorer of FIFA world cup?",
-            "Which team has won the 1996 cricket world cup?"
+            "Which team has won the 1996 ICC cricket world cup?",
+            "Which country has won the most number of FIFA world cup?",
+            "Cristiano Ronaldo is the player of which country?",
+            "Who is the captain of Bangladesh national cricket team?",
+            "Which team has won the most number of ICC cricket world cup?",
+            "Which bowler has the record of taking most wickets in the history of cricket?",
+            "Which batsman has scored 400 runs in one innings in the hostory of test cricket?",
+            "AB DE Villers is the player of which team?",
+            "Who bowled the fastest ball in the history of cricket?",
+            "How many times Brazil has won the FIFA world cup?"
     };
 
     private String myChoice [][] = {
@@ -43,7 +63,11 @@ public class Questions {
             {"Coconut Tree","Mango Tree","JackFruit Tree","Palm Tree"},
             {"Egg","Flour","Oil","Vinegar"},
             {"26th December","26th March","16th December","16th March"},
-            {"Apollo-11","Falcon-8","Falcon-9","Xoom-3"}
+            {"Apollo-11","Falcon-8","Falcon-9","Xoom-3"},
+            {"9","10","11","12"},
+            {"Jamuna","Meghna","Shurma","Padma"},
+            {"Ruhi","Katla","Hilsha","CatFish"},
+            {"Cuckoo","Crow","Magpie","PeaCock"}
 
     };
 
@@ -55,7 +79,14 @@ public class Questions {
             {"Argentina","Chili","Brazil","Peru"},
             {"Uganda","Maldivs","Vatican City","Panama"},
             {"4","5","6","7"},
-            {"India","USA","Germany","France"}
+            {"India","USA","Germany","France"},
+            {"Samsung","Apple","Sony","Motorola"},
+            {"Germany","Italy","Spain","France"},
+            {"5","6","7","8"},
+            {"Mongolia","Portugal","Albenia","Turkey"},
+            {"China","Canada","Russia","Brazil"},
+            {"Golf","Baseball","Basketball","Boxing"},
+            {"Rocky","Everest","Andiz","Kilimanzaro"}
     };
 
     private String sportsChoice[][] = {
@@ -63,16 +94,30 @@ public class Questions {
             {"Brian Lara","Sachin Tendulker","Virat Kohli","Ricky Ponting"},
             {"Argentina","Brazil","France","Germany"},
             {"Maradona","Ronaldo","Messi","Klose"},
-            {"India","Australia","Pakistan","SriLanka"}
+            {"India","Australia","Pakistan","SriLanka"},
+            {"Brazil","Argentina","Germany","Italy"},
+            {"Brazil","Argentina","Spain","Portugal"},
+            {"Shakib AL Hasan","Mushfiqur Rahim","Mahmudullah","Mashrafee"},
+            {"India","Australia","Pakistan","England"},
+            {"Shane Warne","Muralidharan","Wasim Akram","Glenn Megrath"},
+            {"Sachin Tendulkar","Sayeed Anwar","Brian Lara","Viv Richards"},
+            {"Australia","New Zealand","South Africa","England"},
+            {"Shaun Tait","Lasith Malinga","Showeb Akhtar","Fidel Edwards"},
+            {"3","4","5","6"}
     };
 
     private String myCorrectAnswers[] = {
-            "Dhaka", "Taka", "Lilly", "JackFruit", "Tiger", "Ha-do-do", "Mango Tree", "Egg", "26th March","Falcon-9"
+            "Dhaka", "Taka", "Lilly", "JackFruit", "Tiger", "Ha-do-do", "Mango Tree", "Egg", "26th March","Falcon-9",
+            "11","Padma","Hilsha","Magpie"
     };
 
-    private String correctAnsForInternational[] = {"Fox","USA","China","SriLanka","Brazil","Vatican City","5","Germany"};
+    private String correctAnsForInternational[] = {"Fox","USA","China","SriLanka","Brazil","Vatican City","5","Germany",
+            "Apple","France","7","Turkey","Russia","Baseball","Everest"
+    };
 
-    private String correctAnsForSports[] = {"Real Madrid","Sachin Tendulker","Brazil","Klose","Pakistan"};
+    private String correctAnsForSports[] = {"Real Madrid","Sachin Tendulker","Brazil","Klose","Pakistan","Brazil","Portugal",
+            "Mashrafee","Australia","Muralidharan","Brian Lara","South Africa","Showeb Akhtar","5"
+    };
 
     public String getQuestion(int a){
         String question = myQuestions[a];

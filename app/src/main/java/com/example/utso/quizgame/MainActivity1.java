@@ -136,7 +136,7 @@ public class MainActivity1 extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                finish();
+                                startActivity(new Intent(getApplicationContext(),StartActivity.class));
                             }
                         }
                 );

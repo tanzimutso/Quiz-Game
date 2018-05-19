@@ -26,6 +26,7 @@
         android:background="#FFECB3"
         android:drawableLeft="@mipmap/gameplay"
         android:text="Start Game"
+        android:paddingLeft="15dp"
         android:textAlignment="center"
         android:textColor="#FF6F00"
         android:textSize="28dp"

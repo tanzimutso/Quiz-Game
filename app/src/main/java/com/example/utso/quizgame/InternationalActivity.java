@@ -137,7 +137,7 @@ public class InternationalActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                finish();
+                                startActivity(new Intent(getApplicationContext(),StartActivity.class));
                             }
                         }
                 );
